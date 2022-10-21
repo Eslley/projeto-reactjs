@@ -1,8 +1,21 @@
 import React, { Component }from "react"
 
 class Welcome extends Component {
+
+    constructor(props) {
+      super(props)
+    
+      this.state = {
+         isLoggedIn: true
+      }
+    }
+
     render() {
-        return <h1>Welcome { this.props.name }</h1>
+        return this.state.isLoggedIn ? (
+            <h1>Welcome { this.props.name }</h1>
+        ) : (
+            <h1>Welcome Guest</h1>
+        )
     }
 }
 

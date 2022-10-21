@@ -18,9 +18,9 @@ function App() {
 
       <Greet name="Nanfred">
         <button>Action</button>
-      </Greet>
+      </Greet> */}
 
-      <Welcome name="Chomsky" /> */}
+      <Welcome name="Chomsky" />
 
       {/* <Message /> */}
 
@@ -28,7 +28,7 @@ function App() {
       
       {/* <EventBind /> */}
 
-      <ParentComponent />
+      {/* <ParentComponent /> */}
 
     </div>
   );
