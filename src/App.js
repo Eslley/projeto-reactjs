@@ -7,6 +7,7 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import PersonList from './components/PersonList';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <button>Action</button>
       </Greet> */}
 
-      <Welcome name="Chomsky" />
+      {/* <Welcome name="Chomsky" /> */}
 
       {/* <Message /> */}
 
@@ -29,6 +30,8 @@ function App() {
       {/* <EventBind /> */}
 
       {/* <ParentComponent /> */}
+
+      <PersonList />
 
     </div>
   );
