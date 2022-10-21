@@ -1,16 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-import MyComponent from './components/Greet'
+import Greet from './components/Greet'
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 
 function App() {
   return (
     <div className="App">
-      {/* <MyComponent />
-      <Welcome /> */}
+      
+      <Greet name="Rubem">
+        <p>Children props</p>
+      </Greet>
 
-      <Hello />
+      <Greet name="Nanfred">
+        <button>Action</button>
+      </Greet>
+
+      <Welcome name="Chomsky" />
+
     </div>
   );
 }
