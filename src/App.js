@@ -8,6 +8,7 @@ import Counter from './components/Counter';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import PersonList from './components/PersonList';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -31,7 +32,9 @@ function App() {
 
       {/* <ParentComponent /> */}
 
-      <PersonList />
+      {/* <PersonList /> */}
+
+      <Form />
 
     </div>
   );
