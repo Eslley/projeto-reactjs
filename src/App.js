@@ -17,6 +17,8 @@ import FRParentInput from './components/FRParentInput';
 import PortalDemo from './components/PortalDemo';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import { UserProvider } from './components/UserContext';
+import ComponentA from './components/ComponentA';
 
 function App() {
   return (
@@ -56,8 +58,12 @@ function App() {
 
       {/* <PortalDemo /> */}
 
-      <ClickCounter name='Rubem' />
-      <HoverCounter />
+      {/* <ClickCounter name='Rubem' />
+      <HoverCounter /> */}
+
+      <UserProvider value='Rubem'>
+        <ComponentA />
+      </UserProvider>
     </div>
   );
 }
