@@ -15,6 +15,8 @@ import PureComp from './components/PureComponent';
 import RefsDemo from './components/RefsDemo';
 import FRParentInput from './components/FRParentInput';
 import PortalDemo from './components/PortalDemo';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
@@ -52,8 +54,10 @@ function App() {
 
       {/* <FRParentInput /> */}
 
-      <PortalDemo />
+      {/* <PortalDemo /> */}
 
+      <ClickCounter name='Rubem' />
+      <HoverCounter />
     </div>
   );
 }
