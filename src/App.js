@@ -10,6 +10,7 @@ import ParentComponent from './components/ParentComponent';
 import PersonList from './components/PersonList';
 import Form from './components/Form';
 import LifeCycle from './components/LifeCycle';
+import Table from './components/Table';
 
 function App() {
   return (
@@ -37,7 +38,9 @@ function App() {
 
       {/* <Form /> */}
 
-      <LifeCycle></LifeCycle>
+      {/* <LifeCycle></LifeCycle> */}
+
+      <Table />
 
     </div>
   );
