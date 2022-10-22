@@ -11,6 +11,7 @@ import PersonList from './components/PersonList';
 import Form from './components/Form';
 import LifeCycle from './components/LifeCycle';
 import Table from './components/Table';
+import PureComp from './components/PureComponent';
 
 function App() {
   return (
@@ -40,7 +41,9 @@ function App() {
 
       {/* <LifeCycle></LifeCycle> */}
 
-      <Table />
+      {/* <Table /> */}
+
+      <PureComp />
 
     </div>
   );
