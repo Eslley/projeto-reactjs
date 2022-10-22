@@ -9,6 +9,7 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import PersonList from './components/PersonList';
 import Form from './components/Form';
+import LifeCycle from './components/LifeCycle';
 
 function App() {
   return (
@@ -34,7 +35,9 @@ function App() {
 
       {/* <PersonList /> */}
 
-      <Form />
+      {/* <Form /> */}
+
+      <LifeCycle></LifeCycle>
 
     </div>
   );
