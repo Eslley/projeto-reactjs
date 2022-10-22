@@ -14,6 +14,7 @@ import Table from './components/Table';
 import PureComp from './components/PureComponent';
 import RefsDemo from './components/RefsDemo';
 import FRParentInput from './components/FRParentInput';
+import PortalDemo from './components/PortalDemo';
 
 function App() {
   return (
@@ -49,7 +50,9 @@ function App() {
 
       {/* <RefsDemo /> */}
 
-      <FRParentInput />
+      {/* <FRParentInput /> */}
+
+      <PortalDemo />
 
     </div>
   );
