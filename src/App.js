@@ -12,6 +12,8 @@ import Form from './components/Form';
 import LifeCycle from './components/LifeCycle';
 import Table from './components/Table';
 import PureComp from './components/PureComponent';
+import RefsDemo from './components/RefsDemo';
+import FRParentInput from './components/FRParentInput';
 
 function App() {
   return (
@@ -43,7 +45,11 @@ function App() {
 
       {/* <Table /> */}
 
-      <PureComp />
+      {/* <PureComp /> */}
+
+      {/* <RefsDemo /> */}
+
+      <FRParentInput />
 
     </div>
   );
