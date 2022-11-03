@@ -21,6 +21,8 @@ import { UserProvider } from './components/UserContext';
 import ComponentA from './components/ComponentA';
 import PostList from './components/PostList';
 import PostForm from './components/PostForm';
+import CounterOne from './components/CounterOne';
+import CounterTwo from './components/CounterTwo'
 
 function App() {
   return (
@@ -69,7 +71,9 @@ function App() {
 
       {/* <PostList /> */}
 
-      <PostForm />
+      {/* <PostForm /> */}
+
+      <CounterTwo />
     </div>
   );
 }
